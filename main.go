@@ -16,6 +16,7 @@ const subject = "test-subject"
 func main() {
 
 	dataCh := make(chan string)
+
 	ctx := context.Background()
 	var orderMap map[string]Order = make(map[string]Order)
 
